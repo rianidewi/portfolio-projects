@@ -1,0 +1,53 @@
+﻿<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Workflow Demo Portal</title>
+    <link rel="stylesheet" href="/portfolio/demo.css" />
+  </head>
+  <body>
+    <header>
+      <div class="brand">Riani Dewi · Workflow Demos</div>
+      <nav>
+        <a href="/portfolio">Home</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2 class="section-title">Business Process Demos</h2>
+      <section class="cards">
+        <div class="card">
+          <h3>Procure-to-Pay (P2P)</h3>
+          <p class="muted">Requisition → PO → GR → Invoice → Payment</p>
+          <a href="/portfolio/demo/workflows/procure-to-pay-workflow">Open demo</a>
+        </div>
+        <div class="card">
+          <h3>Order-to-Cash (O2C)</h3>
+          <p class="muted">Sales Order → Delivery → Invoice → Payment</p>
+          <a href="/portfolio/demo/workflows/order-to-cash-workflow">Open demo</a>
+        </div>
+        <div class="card">
+          <h3>Record-to-Report (R2R)</h3>
+          <p class="muted">Journal → Close → Financial Reporting</p>
+          <a href="/portfolio/demo/workflows/record-to-report-workflow">Open demo</a>
+        </div>
+        <div class="card">
+          <h3>Hire-to-Retire (H2R)</h3>
+          <p class="muted">Hiring → Onboarding → Payroll → Offboarding</p>
+          <a href="/portfolio/demo/workflows/hire-to-retire-workflow">Open demo</a>
+        </div>
+        <div class="card">
+          <h3>Inventory Replenishment</h3>
+          <p class="muted">Demand → Reorder → GR → Stock Update</p>
+          <a href="/portfolio/demo/workflows/inventory-replenishment-workflow">Open demo</a>
+        </div>
+        <div class="card">
+          <h3>Returns / RMA</h3>
+          <p class="muted">Return Request → Approval → GR → Credit Note</p>
+          <a href="/portfolio/demo/workflows/returns-rma-workflow">Open demo</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
